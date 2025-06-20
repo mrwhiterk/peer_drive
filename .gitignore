@@ -1,0 +1,17 @@
+# Node.js
+node_modules/
+.env
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# OS/Editor files
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# PostgreSQL dumps
+*.sql
