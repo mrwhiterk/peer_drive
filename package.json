@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "dotenv -d .env node-pg-migrate up",
+    "migrate-down": "dotenv -d .env node-pg-migrate down",
     "dev": "nodemon server.js"
   },
   "keywords": [],
@@ -17,6 +19,8 @@
     "pg": "^8.16.2"
   },
   "devDependencies": {
+    "dotenv-cli": "^8.0.0",
+    "node-pg-migrate": "^8.0.3",
     "nodemon": "^3.1.10"
   }
 }
